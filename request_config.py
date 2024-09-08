@@ -1,3 +1,10 @@
+# Cookies and headers are obtained from the browser's network tab under the request that is made
+# To obtain cookies and headers, you can use the following steps:
+# 1. Open the browser's network tab and filter the requests.
+# 2. Find the request that is made to the Delaware government website.
+# 3. Right click on the request and click on "Copy as cURL"
+# 4. Paste the cURL command into a tool like Postman to get the cookies and headers
+
 cookies = {
     '.AspNetCore.Mvc.CookieTempDataProvider': 'CfDJ8IUHoBbyZ9hDuxl3hqS4t_o7Nlolx3BR_5L4kTbeNmZZ_BJ5nX8OMlLQwksazvCT0Ijv5SMMxUyDm0G3KY5jpX14SO_6JV9fcyNqdJ3FcV1K6u5zEkL1kF2N5x-8Z3b3kMIKkzLFB5QK71BYNdEjr3E',
     'TS01514f0c': '01761ac5de7f27af76358baaef4700066d5f6ea88ec7557cd044b100e27c44160e5d758d9d3b8e962cb8029116a6107f7ab4c662ef07c2b7a4391e58691235ed41daca3bfb',
